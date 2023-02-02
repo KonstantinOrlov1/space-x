@@ -1,0 +1,38 @@
+.root {
+  display: none;
+  width: 100%;
+}
+
+.root a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #aeaeae;
+  text-decoration: none;
+}
+
+.root a:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media (max-width: 1100px) {
+  .root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .root {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .root a {
+    display: block;
+    padding-left: 30px;
+  }
+}
