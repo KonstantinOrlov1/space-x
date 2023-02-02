@@ -1,11 +1,16 @@
+/* Корневой тег компонента (START) */
 .title_root {
   padding-top: 35px;
 }
+/* Корневой тег компонента (END) */
 
+/* Контейнер с заголовками (START) */
 .titele_container {
   margin-bottom: 85px;
 }
+/* Корневой тег компонента (END) */
 
+/* Стили заголовков (START) */
 .title_gradient {
   background-image: linear-gradient(to left, #ff440b, #fff);
   color: transparent;
@@ -28,6 +33,7 @@
   font-weight: 500;
   margin: 0;
 }
+/* Стили заголовков (END) */
 
 @media (max-width: 1100px) {
   .title_root {

@@ -1,3 +1,4 @@
+/* Корневой тег компонента (START) */
 .benedit_root {
   display: flex;
   flex-wrap: wrap;
@@ -6,7 +7,9 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
+/* Корневой тег компонента (END) */
 
+/* Контейнеры элементов предложения (START) */
 .benedit_elem {
   width: 160px;
   display: flex;
@@ -18,16 +21,6 @@
 .benedit_elem:hover {
   background-image: url(./imgs/scene.png);
   background-size: cover;
-}
-
-.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.right {
-  align-items: flex-end;
 }
 
 .benedit_elem:nth-child(odd) {
@@ -48,25 +41,21 @@
 .benedit_elem span:not(:last-child) {
   margin-bottom: 30px;
 }
+/* Контейнеры элементов предложения (END) */
 
-.benefit_title {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 60px;
-  line-height: 60px;
-  color: #aeaeae;
+/* Вспомогательные классы для стилизации узлов (START) */
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  align-items: flex-end;
 }
 
 .benefit_textcontainer {
   margin-bottom: 10px;
-}
-
-.title {
-  font-size: 60px;
-  line-height: 60px;
-  color: #aeaeae;
-  display: inline-block;
-  margin: 0;
 }
 
 .benefit_year {
@@ -77,6 +66,25 @@
   color: #aeaeae;
   margin: 0;
 }
+/* Вспомогательные классы для стилизации узлов (END) */
+
+/* Заголовки (START) */
+.benefit_title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #aeaeae;
+}
+
+.title {
+  font-size: 60px;
+  line-height: 60px;
+  color: #aeaeae;
+  display: inline-block;
+  margin: 0;
+}
+/* Заголовки (END) */
 
 @media (max-width: 1100px) {
   .benedit_root {

@@ -1,8 +1,11 @@
+/* Корневой тег компонента, для добавления под хедр сплывающего бургер-меню (START) */
 .container {
   width: 100%;
   margin-bottom: 85px;
 }
+/* Корневой тег компонента, для добавления под хедр сплывающего бургер-меню (END) */
 
+/* Хедер страницы (START) */
 .header_root {
   display: inline-flex;
   align-items: center;
@@ -12,7 +15,9 @@
   align-self: stretch;
   margin-bottom: 10px;
 }
+/* Хедер страницы (END) */
 
+/* Логотип хедера (START) */
 .header_logo {
   position: relative;
   display: flex;
@@ -54,7 +59,9 @@
   bottom: 0;
   left: 0;
 }
+/* Логотип хедера (END) */
 
+/* Блок навигации по сайту (START)*/
 .header_nav a {
   font-size: 16px;
   line-height: 22px;
@@ -72,7 +79,9 @@
   padding-bottom: 2px;
   border-bottom: 1px solid #929191;
 }
+/* Блок навигации по сайту (END) */
 
+/* Бургер для открытия навигационного меня на узких экранах (START)*/
 .burger {
   background-image: url(./imgs/burger.png);
   background-repeat: no-repeat;
@@ -84,6 +93,7 @@
   display: none;
   cursor: pointer;
 }
+/* Бургер для открытия навигационного меня на узких экранах (END)*/
 
 @media (max-width: 1100px) {
   .header_nav {
